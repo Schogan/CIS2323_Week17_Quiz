@@ -1,6 +1,6 @@
 public class NonFiction extends Book{
 	
-	NonFiction(){
+	public NonFiction(){
 		setPrice();
 	}
 	

@@ -5,9 +5,10 @@ public abstract class Book {
 		private double price=0;
 				
 		Book(String a){
-			setTitle();
+			setTitle(a);
+			setPrice();
 		}
-		
+				
 		public void setTitle(String bookTitle){
 			title = bookTitle; 
 		}

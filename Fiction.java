@@ -1,6 +1,6 @@
 public class Fiction extends Book{
 	
-	Fiction(){
+	public Fiction(){
 		setPrice();
 	}
 	
