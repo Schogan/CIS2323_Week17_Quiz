@@ -5,6 +5,6 @@ public class NonFiction extends Book{
 	}
 	
 	public void setPrice(){
-		double price = 37.99;
+		price = 37.99;
 	}
 }

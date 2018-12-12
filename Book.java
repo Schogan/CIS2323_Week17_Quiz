@@ -2,12 +2,12 @@
 
 public abstract class Book {
 		private String title; 
-		private double price=0;
+		public double price=0;
 				
-		Book(String a){
+		/*Book(String a){
 			setTitle(a);
 			setPrice();
-		}
+		}*/
 				
 		public void setTitle(String bookTitle){
 			title = bookTitle; 
